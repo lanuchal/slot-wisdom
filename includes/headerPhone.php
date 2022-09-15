@@ -1,50 +1,28 @@
-<?php include 'configImgs.php'; ?>
-<?php include 'configLinks.php'; ?>
-
-
-<div class="d-flex justify-content-evenly p-0">
-    <div class="tect-center">
-        <a href=<?php echo $link_phone_menu_1 ?> target="_blank">
-            <div class="menu_img">
-                <img class="d-block w-100" src=<?php echo $img_phone_menu_1 ?> alt="">
-            </div>
-            <p>กิจกรรม</p>
+<div class="menubar-tap">
+    <div>
+        <a class="d-block" href="<?php echo $link_menu_phone1; ?>">
+            <img src=<?php echo $menu_logo_1; ?> class="b-block img-bar" alt="">
         </a>
     </div>
-    <hr style="height: 4rem; width:0.1rem; color:#fff; margin-top:-0.5rem;">
-    <div class="tect-center">
-        <a href=<?php echo $link_phone_menu_2 ?> target="_blank">
-            <div class="menu_img">
-                <img class="d-block w-100" src=<?php echo $img_phone_menu_2 ?> alt="">
-            </div>
-            <p>Lobby</p>
+    <div>
+        <a target="_blank" class="d-block" href="<?php echo $link_menu_phone2; ?>">
+            <img src=<?php echo $menu_logo_2; ?> class="b-block img-bar" alt="">
         </a>
     </div>
-    <hr style="height: 4rem; width:0.1rem; color:#fff; margin-top:-0.5rem;">
-    <div class="tect-center">
-        <a href=<?php echo $link_phone_menu_3 ?> target="_blank">
-            <div class="menu_img">
-                <img class="d-block w-100" src=<?php echo $img_phone_menu_3 ?> alt="">
-            </div>
-            <p>ทดลอง</p>
+    <div>
+        <a class="d-block" href="<?php echo $link_menu_phone3; ?>">
+            <img src=<?php echo $img_logo; ?> class="b-block imgooo" alt="">
+            <img src=<?php echo $img_star; ?> class="b-block mx-2" alt="" width="1px">
         </a>
     </div>
-    <hr style="height: 4rem; width:0.1rem; color:#fff; margin-top:-0.5rem;">
-    <div class="tect-center">
-        <a href=<?php echo $link_phone_menu_4 ?> target="_blank">
-            <div class="menu_img">
-                <img class="d-block w-100" src=<?php echo $img_phone_menu_4 ?> alt="">
-            </div>
-            <p>เข้าระบบ</p>
+    <div>
+        <a target="_blank" class="d-block" href="<?php echo $link_menu_phone4; ?>">
+            <img src=<?php echo $menu_logo_3; ?> class="b-block img-bar" alt="">
         </a>
     </div>
-    <hr style="height: 4rem; width:0.1rem; color:#fff; margin-top:-0.5rem;">
-    <div class="tect-center">
-        <a href=<?php echo $link_phone_menu_5 ?> target="_blank">
-            <div class="menu_img">
-                <img class="d-block w-100" src=<?php echo $img_phone_menu_5 ?> alt="">
-            </div>
-            <p>สมัคร</p>
+    <div>
+        <a target="_blank" class="d-block" href="<?php echo $link_menu_phone5; ?>">
+            <img src=<?php echo $menu_logo_4; ?> class="b-block img-bar" alt="">
         </a>
     </div>
 </div>

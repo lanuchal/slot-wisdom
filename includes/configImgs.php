@@ -1,55 +1,50 @@
 <?php
 // รูปที่ขาด
 $img_want = "./assets/imgs/ccc.png";
-$name_web = "FINNI CASINO";
-$name_title = "FINNI";
+$name_web = "WISDOM 888";
+$name_title = "WISDOM 888";
 //games/1.pngweb name
 $img_menu = "./assets/icons/align-center.svg";
-$img_logo = "https://www.overgameclub.co/wp-content/uploads/2022/07/img-home-1.png";
-// $img_logo = "./assets/imgs/logo.png";
-$img_test_play = "./assets/imgs/test_play.png";
-$img_sign_in = "./assets/imgs/sign_in.png";
-$img_sign_up = "./assets/imgs/sign_up.png";
-$img_finni_casino = "./assets/imgs/finni_casino.png";
-$img_coin = "./assets/imgs/coin.gif";
-$img_star1 = "./assets/imgs/star.png";
 
-$img_star2 = "./assets/imgs/(8)150x231.png";
+
+// $img_sign_up = "./assets/imgs/signup.jpg";
+$img_logo = "./assets/imgs/logo.png";
+// $img_logo = "./assets/imgs/logo.png";
+
+$img_sign_up = "./assets/imgs/signup.png";
+
+$img_star2 = "./assets/imgs/contact.png";
 $img_star3 = "./assets/imgs/(44)150x231.png";
 
-$img_pagg1_1 = "https://www.overgameclub.co/wp-content/uploads/2022/05/%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B4%E0%B8%99%E0%B8%B5.png";
+$img_pagg1_1 = "./assets/imgs/img1.png";
 // 4 title
-$img_pagg1_2 = "https://www.overgameclub.co/wp-content/uploads/2022/02/%E0%B8%9D%E0%B8%B2%E0%B8%81%E0%B8%96%E0%B8%AD%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B9%82%E0%B8%95%E0%B9%89.png";
-$img_pagg1_3 = "https://www.overgameclub.co/wp-content/uploads/2022/02/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2.png";
-$img_pagg1_4 = "https://www.overgameclub.co/wp-content/uploads/2022/02/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A1%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%84%E0%B8%87.png";
-$img_pagg1_5 = "https://www.overgameclub.co/wp-content/uploads/2022/02/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2.png";
+$img_pagg1_2 = "./assets/imgs/m1.png";
+$img_pagg1_3 = "./assets/imgs/m2.png";
+$img_pagg1_4 = "./assets/imgs/m3.png";
+$img_pagg1_5 = "./assets/imgs/m4.png";
 
-$img_pagg1_6 = "https://www.overgameclub.co/wp-content/uploads/2022/05/img-slotxovip-1.png";
+$img_pagg1_6 = "./assets/imgs/base.png";
 
-$img_pagg1_7 = "https://www.overgameclub.co/wp-content/uploads/2022/05/Sicbo.png";
-$img_pagg1_8 = "https://www.overgameclub.co/wp-content/uploads/2022/02/ic-check-index.png";
+$img_pagg1_7 = "./assets/imgs/line.png";
+$img_pagg1_8 = "./assets/imgs/check.png";
 
-$img_pagg1_9 = "https://www.overgameclub.co/wp-content/uploads/2022/02/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9A%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1.png";
+$img_pagg1_9 = "./assets/imgs/fot.png";
 
-$img_pagg1_10 = "https://www.overgameclub.co/wp-content/uploads/2022/05/the-popular-casino-software-from-jili-gamingsoft.png";
+$img_pagg1_10 = "./assets/imgs/fot2.png";
 
+$owl_img1 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5646.jpg";
+$owl_img2 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5647.jpg";
+$owl_img3 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5648.jpg";
+$owl_img4 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5649.jpg";
 
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_2 = "./assets/imgs/1.png";
-// $img_footer_3 = "./assets/imgs/1.png";
-// $img_footer_4 = "./assets/imgs/1.png";
-// $img_footer_5 = "./assets/imgs/1.png";
-// $img_footer_6 = "./assets/imgs/1.png";
-// $img_footer_7 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
-// $img_footer_1 = "./assets/imgs/1.png";
+$img_star = "https://www.overgameclub.co/wp-content/themes/betflixmgm/images/icon/star.svg?v=2";
+
+$img_promotion_1 = "./assets/imgs/pr01.jpg";
+$img_promotion_2 = "./assets/imgs/pr02.jpg";
+$img_promotion_3 = "./assets/imgs/pr03.jpg";
+$img_promotion_4 = "./assets/imgs/pr04.jpg";
+
+$menu_logo_1 = "./assets/imgs/menu1.png";
+$menu_logo_2 = "./assets/imgs/menu2.png";
+$menu_logo_3 = "./assets/imgs/menu3.png";
+$menu_logo_4 = "./assets/imgs/menu4.png";

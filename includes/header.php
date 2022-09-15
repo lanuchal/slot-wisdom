@@ -1,45 +1,27 @@
 <?php include 'configImgs.php'; ?>
 <?php include 'configLinks.php'; ?>
 
-<ul class="menu-bar">
-    <li>
-        <a href="<?php echo $link_home; ?>">
-            <i class="fa fa-home" aria-hidden="true"></i>
-            <p class="p-menu">หน้าแรก</p>
-        </a>
-    </li>
-    <li>
-        <a target="_blank"  href="<?php echo $link_signIn; ?>">
-
-            <i class="fa fa-gamepad" aria-hidden="true"></i>
-            <p class="p-menu">บัญชีเกมส์</p>
-        </a>
-    </li>
-    <li>
-        <a target="_blank"  href="<?php echo $link_signIn; ?>">
-            <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
-            <p class="p-menu">ฝากเงิน</p>
-        </a>
-    </li>
-    <li>
-        <a target="_blank"  href="<?php echo $link_signIn; ?>">
-            <i class="fa fa-caret-square-o-left" aria-hidden="true"></i>
-            <p class="p-menu">ถอนเงิน</p>
-        </a>
-    </li>
-    <li>
-        <a target="_blank"  href="<?php echo $link_signIn; ?>">
-            <i class="fa fa-users" aria-hidden="true"></i>
-            <p class="p-menu">แนะนำเพื่อน</p>
-        </a>
-
-    </li>
-    <li>
-        <a target="_blank"  href="<?php echo $link_line; ?>">
-            <img class="line-icon" src=<?php echo $line_icon ?>>
-            <p class="p-menu">ID LINE: <?php echo $line_name ?></p>
-        </a>
-
-    </li>
-</ul>
-
+<div class="container-md">
+    <!-- <div class='row m-0'> -->
+    <div class="d-flex align-items-center">
+        <div class="p-2 flex-grow-1">
+            <div class="d-flex box-title align-items-center">
+                <i class="bi-text-center curcer" id="o-menu-left" onclick="openMenubar()"></i>
+                <i class="bi-x-lg curcer" style="display:none;" id="c-menu-left"></i>
+                <a href="?page=1">
+                    <img class="d-block img-head" src=<?php echo $img_logo ?> alt="">
+                </a>
+            </div>
+        </div>
+        <div class="p-2"><a href="<?php echo $link_sign_in; ?>" target="_blank">
+                <div class="p-2 btn-mini">
+                    เข้าสู่ระบบ
+                </div>
+            </a></div>
+        <div class="p-2"><a href="<?php echo $link_sign_up; ?>" target="_blank">
+                <div class="btn-sign-up p-2 btn-mini">
+                    สมัครสมาชิก
+                </div>
+            </a></div>
+    </div>
+</div>

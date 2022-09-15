@@ -1,368 +1,251 @@
-<div class='row box-3'>
-    <div class=" d-flex justify-content-center">
-        <div class="d-block text-center">
-            <h4><?php echo $name_title ?>GAME หรือ <?php echo $name_title ?> GAMING เป็นแพลตฟอร์มความบันเทิงอันดับหนึ่ง</h4><br>
-            <h4> ขึ้นแท่นคาสิโน ที่ได้รับรางวัลมากที่สุด <?php echo $name_title ?> บาคาร่า, <?php echo $name_title ?> ยุโรป<h4>
+<div class='container-md p-0'>
+    <br><br>
+    <div class="row">
+        <div class="col-md-6 px-5 text-center" style="float:none;margin:auto;">
+            <img class="d-block mx-auto mt-5 img-fr" src=<?php echo $img_logo ?>>
+            <h3><strong class="base-color"><?php echo $name_web; ?></strong> อันดับหนึ่ง No.1</h3>
+            <span><?php echo $name_web; ?> ฝาก-ถอนออโต้ รองรับระบบ AUTO
+                สมัครง่ายไม่ต้องจำยูสเซอร์เปิดบริการตลอด24ชม</span>
+               <br>
+            <a href="<?php echo $link_sign_up; ?>" target="_bank" class="mt-2 "><br>
+                <img src=<?php echo $img_sign_up; ?> height="60px"></a>
+        </div>
+        <div class="col-md-6 px-5">
+            <img class="d-block w-100" src=<?php echo $img_pagg1_1; ?>>
         </div>
     </div>
 </div>
-<br>
-<br>
-<div class='row box-4 position-relative'>
-    <img class="box-logo" src=<?php echo $img_logo ?> alt="">
-    <div class="col-md-6 text-center">
-        <h2> <?php echo $name_title ?> Gaming Casino</h2>
-        <span><?php echo $name_title ?> Gaming เราเป็นเว็บที่ให้เล่นคาสิโนออนไลน์ในรูปแบบมือถือ และบนคอมพิวเตอร์ มี บาคาร่า เกมส์สล็อต เสือ มังกร มีให้เล่นมากในเกมส์ <?php echo $name_title ?> Gaming Casino สามารถเลือกเล่นได้หลากหลายรูปแบบ มีระบบฝากถอน เงิน ออโต้ สามารถทำรายการไม่เกิน 1 นาที ไม่ต้องมารอเติมเงินให้เสียเวลาสามารถ ฝาก ถอนได้ตลอดเวลา 24 ชั่วโมง เว็บ www.<?php echo $name_title ?>casino.me เล่นบาคาร่าออนไลน์ เล่นคาสิโนออนไลน์ ผ่านเว็บง่ายๆ</span>
-        <br><br>
-        <span>วันนี้เข้ามาในไทยร่วม 10 ปี ที่ไม่หยุดพัฒนาเพื่อประสบการณ์ต่อผู้เล่น ที่สะดวก เสถียรที่สุด รองรับทั้งมือถือ และ คอมพิวเตอร์ โดยไม่ต้องดาวน์โหลดใดๆ อีกทั้งยังมีระบบฝากถอนออโต้ เจ้าเดียวที่ใช้ได้จริง ทำให้ <?php echo $name_title ?> Casino เป็นที่นิยมแพร่หลายจนถึงทุกวันนี้ ซึ่งผู้ใดอยากจะเดิมพันคาสิโน ทั้งเกม บาคาร่า ไฮโล ป๊อกเด้ง เสือ-มังกร หรือรูเล็ตแล้ว ต้องนึกถึง <?php echo $name_title ?> Casino เป็นเว็บแรก</span>
-
-    </div>
-    <div class="col-md-6 text-center">
-        <img class="d-block w-100" src=<?php echo $img_want ?> alt=''>
+<hr class="x-hr">
+<div class="container-md">
+    <div class="row">
+        <div class="col-md-3 text-center p-2">
+            <div class="m-1">
+                <img src=<?php echo $img_pagg1_2; ?> alt="">
+            </div>
+            <strong>ฝากถอน Auto 100%</strong><br>
+            <span>ฝาก-ถอน ออโต้ 3 วินาที เจ้าเดียวในไทยระบบใหม่ล่าสุด!</span>
+        </div>
+        <div class="col-md-3 text-center p-2">
+            <div class="m-1">
+                <img src=<?php echo $img_pagg1_3; ?> alt="">
+            </div>
+            <strong>ฝากไม่มีขั้นต่ำ</strong><br>
+            <span>ฝากเท่าไหร่ก็ได้ไม่มีขั้นต่ำ ถอนขั้นต่ำ 100บาท เกมสล็อตครบทุกค่าย</span>
+        </div>
+        <div class="col-md-3 text-center p-2">
+            <div class="m-1">
+                <img src=<?php echo $img_pagg1_4; ?> alt="">
+            </div>
+            <strong>ความมั่นคง</strong><br>
+            <span>เท่าไหร่ก็จ่ายไม่มีลิมิตต่อวัน</span>
+        </div>
+        <div class="col-md-3 text-center p-2">
+            <div class="m-1">
+                <img src=<?php echo $img_pagg1_5; ?> alt="">
+            </div>
+            <strong>ความหลากหลาย</strong><br>
+            <span>มีเกมให้เลือกหลากหลาย จากค่ายระดับโลก</span>
+        </div>
     </div>
 </div>
-<br>
-<br>
+<hr class="x-hr">
+<div class="bg-xx">
+    <div class="container-md mt-2 ">
+        <div class="row px-5">
+            <div class="col-md-6 p-2" style="float:none;margin:auto;">
+                <img src=<?php echo $img_pagg1_6; ?> alt="" class="d-block w-100">
+            </div>
+            <div class="col-md-6 p-2" style="float:none;margin:auto;">
+                <div class="text-center">
+                    <img src=<?php echo $img_logo; ?> alt="" class="d-block mx-auto mb-4" width="300px">
+                </div>
+                <strong class="base-color"><?php echo $name_web; ?> เว็บที่ให้บริการคาสิโนออนไลน์เต็มรูปแบบ คาสิโนสด สล็อตออนไลน์
+                    บาคาร่าสด ยิงปลา แทงบอล ​</strong><br>
+                <span>แหล่งรวมบริการเกมสล็อตออนไลน์ ที่กำลังมาแรงในปี 2022 สมัครสมาชิกใหม่ รับโบนัสแรกเข้าฟรี 100% มีเกมให้เลือกเล่นมากกว่า 1,000 เกม มาพร้อมการเติมเงิน ฝากถอน ผ่านระบบอัตโนมัติ ที่มีเจ้าหน้าที่คอยให้บริการตลอด 24 ชั่วโมง</span>
+                <br>
+                <div class="text-end"><a href="<?php echo $link_blog; ?>" target="_bank" class="btn mt-4 btn-md btn-sign-up3 text-light">บทความ</a></div>
 
-<div class="row box-5">
-    <h4 class="d-flex">
-        <div class="bd-highlight flex-grow-1 d-inline">
-            สารบัญเนื้อหา
+            </div>
+            <div class="col-md-12 text-center mt-0 mb-2">
+            </div>
         </div>
-        <div id="bt-myDIV1" class="bd-highlight" onclick="myFunction1()">
-            +
+    </div>
+</div>
+
+<div class="container-md">
+    <div class="row">
+        <div class="col-md-12 text-center mb-5">
+            <a href="<?php echo $link_blog_all; ?>" target="_bank" class="btn mt-4 btn-md px-5 mb-3 btn-sign-up2  text-light">บทความทั้งหมด</a>
+            <div class="row box-border-page2 pt-2 mt-5 position-relative">
+                <div class="promotion">
+                    โปรโมชั่น
+                </div>
+                <div class="col-md-12 mt-3">
+                    <div class="owl-carousel mb-0 owl-box">
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img1 ?> alt=""></a>
+                        </div>
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img2 ?> alt=""></a>
+                        </div>
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img3 ?> alt=""></a>
+                        </div>
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img4 ?> alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="bt-myDIV2" class="bd-highlight" style="display: none;" onclick="myFunction1()">
-            -
-        </div>
-    </h4>
-    <div id="myDIV1" style="display: none;" class="box-5-text">
         <br>
-        <p> <?php echo $name_title ?> บาคาร่า เว็บพนันออนไลน์ รวมทุกเกมเดิมพัน</p>
-        <p><?php echo $name_title ?> gaming บนมือถือด้วยระบบถ่ายทอดสด</p>
-        <p><?php echo $name_title ?> Game คาสิโนสด ภาพคมชัดระดับ Full HD</p>
-        <p><?php echo $name_title ?> Game มั่นใจ ปลอดภัยทุกการเดิมพัน</p>
-        <ul>
-            <li><?php echo $name_title ?> GAME คาสิโนสด ยอดนิยมแห่งปี</li>
-            <li><?php echo $name_title ?> คาสิโน เว็บตรงได้มาตรฐานระดับสากล</li>
-        </ul>
-        <p> casino online อันดับ 1 ของโลกพนันออนไลน์</p>
-        <ul>
-            <li>ความโดดเด่นของ casino online บนเว็บตรงไม่ผ่านเอเย่นต์</li>
-        </ul>
-        <p>บาคาร่า ออนไลน์ เกมคาสิโนออนไลน์ยอดฮิต</p>
-        <ul>
-            <li>
-                บาคาร่า ออนไลน์ บนผู้ให้บริการระดับพรีเมี่ยม
-            </li>
-        </ul>
+        <div class="cool-md-12 text-center">
+            <img src=<?php echo $img_logo; ?> alt="" class="d-block mx-auto" width="300px">
+        </div>
+        <h2><strong class="base-color"><?php echo $name_web; ?> คาสิโนออนไลน์ แจกเครดิตฟรี เกมคาสิโน</strong></h2>
         <br>
+        <span> <strong>เว็บคาสิโนออนไลน์ที่ดีที่สุด</strong> ในตอนนี้ต้องเว็บนี้เลย <strong><?php echo $name_web; ?></strong> เพราะเราคือ
+            คาสิโนออนไลน์แจกเครดิตฟรี ที่เรามั่นใจว่าท่านที่เข้ามาเล่นต้องประทับใจอย่างแน่นอน
+            วิธีการได้โบนัสหรือเครดิตฟรี จากเราเพียงแค่ให้คุณเข้ากลุ่มร่วมเล่นเกมคาสิโน
+            กับเราและคอยติดตามกิจกกรมการแจกเงินต่าง ๆ ได้ในเพจหรือไลน์ เครดิตจากเรานั้นเป็นเงินจริงๆ
+            ที่ให้คุณได้นำไปเล่นเกมคาสิโนในเว็บเราต่อ สามารถถอนเงินออกได้แน่นอน
+            เพราะเรามีระบบอัตโนมัติพร้อมให้บริการตลอด 24 ชั่วโมง</span>
+        <br>
+        <h2 class="mt-2"><strong class="base-color">เล่นเกมผ่าน เว็บตรงคาสิโน มีเกมให้เลือกหลากหลาย</strong></h2>
+        <span>เว็บเล่นเกมคาสิโนออนไลน์แห่งปี 2022 เรามีให้คุณเลือกมากมายหลากหลายเกม ตังอย่างเช่น
+            บาคาร่า สล็อต หวย แทงบอล เป็นต้น โดยแต่ละเกม ที่เราอยากจะนำเสนอนั้นเป็น
+            เป็นเกมที่เล่นได้ง่าย ๆ เข้าใจไม่ได้ยากเพราะว่า คาสิโนออนไลน์ นั้นออกแบบมา
+            เพื่อให้ง่ายต่อการเข้าถึงจากทุกแพลตฟอร์มได้อยู่แล้ว และเว็บของเราเป็นเว็บคาสิโนตรง
+            ที่พร้อมนำเสนอเกมพนัน ให้คุณได้เล่นอย่างครบครัน อีกทั้ยังมีบริการติดต่อสอบถามได้ตลอด 24 ชม.
+            ผ่านทาง <a href="<?php echo $link_line; ?>" target="_bank"><strong> <?php echo $line_name ?></strong></a> ของเราได้ทันที
+            เมื่อท่านพบปัญหาภายในเว็บไซต์ของเรา
+            <a href="<?php echo $link_sign_up; ?>" target="_bank"><strong>สมัครสมาชิก</strong></a>
+        </span>
     </div>
-</div>
-<br>
-<div class='row '>
-    <div class='col position-relative'>
-        <!-- <span class='text-blog blog-l'>
-                            <h4><?php
-                                // echo $name_title 
-                                ?> บาคาร่า เว็บพนันออนไลน์ รวมทุกเกมเดิมพัน</h4>
-                            <p>
-                                <?php
-                                //  echo $name_title 
-                                ?> บาคาร่า เว็บพนันอนไลน์ที่รวมเกมคาสิโนสดหลากหลายประเภทไม่ว่าจะเป็น บาคาร่า เสือมังกร ไฮโล และ รูเล็ต ให้คุณได้เลือกเล่นมากกว่าที่ใด นำเสนอด้วยระบบ Live casino ส่งตรงจากต่างประเทศ ลุ้นรับรางวัลใหญ่ไปกับ <?php echo $name_title ?> บาคาร่า ได้แล้ววันนี้
-                            </p>
-                        </span> -->
-        <div class='img-blog img-l'>
-            <img class="d-block w-100" src=<?php echo $img_box7 ?> alt=''>
-        </div>
-    </div>
-</div>
-<br>
-<div class='row '>
-    <div class='col position-relative'>
-        <!-- <span class='text-blog blog-r'>
-                            <h4><?php
-                                // echo $name_title 
-                                ?> บาคาร่า เว็บพนันออนไลน์ รวมทุกเกมเดิมพัน</h4>
-                            <p>
-                                <?php
-                                // echo $name_title
-                                ?> บาคาร่า เว็บพนันอนไลน์ที่รวมเกมคาสิโนสดหลากหลายประเภทไม่ว่าจะเป็น บาคาร่า เสือมังกร ไฮโล และ รูเล็ต ให้คุณได้เลือกเล่นมากกว่าที่ใด นำเสนอด้วยระบบ Live casino ส่งตรงจากต่างประเทศ ลุ้นรับรางวัลใหญ่ไปกับ <?php echo $name_title ?> บาคาร่า ได้แล้ววันนี้
-                            </p>
-                        </span> -->
-        <div class='img-blog img-r'>
-            <img class="d-block w-100" src=<?php echo $img_box8 ?> alt=''>
-        </div>
-    </div>
-</div>
-<br>
-<div class='row '>
-    <div class='col position-relative'>
-        <!-- <span class='text-blog blog-l'>
-                            <h4><?php
-                                // echo $name_title 
-                                ?> บาคาร่า เว็บพนันออนไลน์ รวมทุกเกมเดิมพัน</h4>
-                            <p>
-                                <?php
-                                // echo $name_title 
-                                ?> บาคาร่า เว็บพนันอนไลน์ที่รวมเกมคาสิโนสดหลากหลายประเภทไม่ว่าจะเป็น บาคาร่า เสือมังกร ไฮโล และ รูเล็ต ให้คุณได้เลือกเล่นมากกว่าที่ใด นำเสนอด้วยระบบ Live casino ส่งตรงจากต่างประเทศ ลุ้นรับรางวัลใหญ่ไปกับ <?php echo $name_title ?> บาคาร่า ได้แล้ววันนี้
-                            </p>
+    <div class="row mt-2">
+        <div class="col-md-5 p-4" style="float:none;margin:auto;">
+            <div class="px-5"><img src=<?php echo $img_pagg1_7; ?> alt="" class="d-block w-100"></div>
 
-                        </span> -->
-        <div class='img-blog img-l'>
-            <img class="d-block w-100" src=<?php echo $img_box9 ?> alt=''>
+        </div>
+        <div class="col-md-7" style="float:none;margin:auto;">
+            <h3><strong>ทำไมถึงต้องเล่นกับเรา?</strong></h3>
+            <div class="d-flex align-items-center mt-2">
+                <img src=<?php echo $img_pagg1_8; ?> alt="">&emsp;
+                เว็บของเรามีระบบอัตโนมัติสามารถสมัครได้ด้วยตัวเองโดยไม่ต้องผ่านแอดมิน
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <img src=<?php echo $img_pagg1_8; ?> alt="">&emsp;
+                เล่นตรงกับบริษัทไม่ผ่านเอเย่นต์
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <img src=<?php echo $img_pagg1_8; ?> alt="">&emsp;
+                การเงินมั่นคง จ่ายเร็ว จ่ายไว จ่ายไม่อั้น
+            </div>
+            <div class="d-flex align-items-center mt-2">
+                <img src=<?php echo $img_pagg1_8; ?> alt="">&emsp;
+                บริการตลอด 24 ชั่งโมง
+            </div>
         </div>
     </div>
-</div>
-<br>
-<div class='row '>
-    <div class='col position-relative'>
-        <!-- <span class='text-blog blog-r'>
-                            <h4><?php
-                                // echo $name_title
-                                ?> บาคาร่า เว็บพนันออนไลน์ รวมทุกเกมเดิมพัน</h4>
-                            <p>
-                                <?php
-                                // echo $name_title 
-                                ?> บาคาร่า เว็บพนันอนไลน์ที่รวมเกมคาสิโนสดหลากหลายประเภทไม่ว่าจะเป็น บาคาร่า เสือมังกร ไฮโล และ รูเล็ต ให้คุณได้เลือกเล่นมากกว่าที่ใด นำเสนอด้วยระบบ Live casino ส่งตรงจากต่างประเทศ ลุ้นรับรางวัลใหญ่ไปกับ <?php echo $name_title ?> บาคาร่า ได้แล้ววันนี้
-                            </p>
-                        </span> -->
-        <div class='img-blog img-r'>
-            <img class="d-block w-100" src=<?php echo $img_box10 ?> alt=''>
-        </div>
-    </div>
-</div>
-<br>
-
-<br>
-<div class='row box-7 position-relative'>
-    <img class="box-logo" src=<?php echo $img_logo ?> alt="">
-    <div class="d-flex justify-content-center align-items-center">
-        <div class="text-center">
-            <h4><?php echo $name_title ?> GAME คาสิโนสด ยอดนิยมแห่งปี</h4>
-            <span><?php echo $name_title ?> GAME ผู้ให้บริการคาสิโนออนไลน์ที่ดีที่สุด
-                พร้อมบริการแบบครบวงจรจากทีมงานแอดมินผู้เชี่ยวชาญ
-                ที่จะช่วยเหลือนักพนันตลอดการเดิมพันเมื่อท่านเกิดปัญหา
-                และเรายังเป็นผู้ให้บริการ สล็อตออนไลน์
-                ที่มาพร้อมรูปแบบของเกมให้ท่านได้เลือกได้แบบไม่อั้นตลอดทั้งวันนอกจากนี้การเลือกเข้ามาลงทุนกับเรา
-                ท่านก็จะได้พบในส่วนของโปรโมชั่นแบบจัดเต็มและจัดหนักมากมายที่จะช่วยให้ท่านได้รับ
-                ค่าตอบแทนจากการลงทุนในแบบที่ไม่เคยได้จากที่ไหนมาก่อน</span>
-            <br><br>
-            <h4><?php echo $name_title ?> คาสิโน เว็บตรงได้มาตรฐานระดับสากล</h4>
-            <span><?php echo $name_title ?> คาสิโน ผู้ให้บริการพนันออนไลน์ ที่ถูกลิขสิทธิ์ หรือที่เรียกว่า เว็บตรง ได้มาตรฐานระดับสากล
-                ขึ้นแท่นผู้นำในวงการพนันออนไลน์ เนื่องด้วยเราได้รับลิขสิทธิ์ให้นำเสนออย่างถูกต้อง
-                มาพร้อมกับเกมให้เลือกลงทุนแบบจัดเต็ม แต่ละเกมของเรารูปแบบทันสมัย อัปเดตสิ่งใหม่ ๆ
-                อยู่ตลอดเวลา ช่วยให้นักพนันมีความมั่นใจตลอดการหารายได้ เพราะเราคือ <?php echo $name_title ?> คาสิโน
-                เว็บตรงไม่ผ่านเอเย่นต์</span>
-        </div>
-    </div>
-</div>
-<br>
-<br>
-<div class='row box-7 position-relative'>
-    <img class="box-logo" src=<?php echo $img_logo ?> alt="">
-    <div class="d-flex justify-content-center align-items-center">
-        <div class="text-center">
+    <div class="row mt-2">
+        <div class="col-md-12">
+            <h2><strong>เว็บคาสิโนออนไลน์ครบวงจร แจกเครดิตฟรี</strong></h2>
+            <br><span>
+                เว็บคาสิโนออนไลน์ที่กำลังมาแรงที่สุดในตอนนี้ ต้องยกให้เว็บนี้เลย เพราะเว็บนี้เป็นเว็บ คาสิโนออนไลน์ครบวงจร
+                แจกเครดิตฟรี มีเกมคาสิโนยอดฮิตมาไว้ให้ทุกท่านได้เลือกเล่นอย่างหลากหลาย
+                รับรองได้ว่าทุกท่านที่ได้เข้ามาเล่นจะต้องประทับใจอย่างแน่นอน
+                เพียงแค่ท่านกดเข้ามาสมัครสมาชิกที่เว็บของเรา มาร่วมสนุกกับเว็บของเรา สมัครสมาชิกตอนนี้รับเครดิตฟรีทันที
+            </span><br><br>
             <span>
-                <h4>casino online อันดับ 1 ของโลกพนันออนไลน์</h4>
-                <p>casino online เดิมพันออนไลน์ด้วยความมั่นใจ เว็บตรงไม่ผ่านเอเย่นต์ อันดับ 1 ที่มีผู้ให้ความไว้วางใจมากที่สุดในไทย
-                    ซึ่งเป็นที่ยอมรับว่า เราคือเว็บที่มีความมั่นคง ปลอดภัยสูง ได้มาตรฐานสากล พร้อมทั้งตอบสนองต้องการของผู้เล่น
-                    ดูแลและใส่ใจสมาชิกเดิมพันทุกท่าน ทั้งสมาชิกเก่าและสมาชิกใหม่ ตั้งแต่ระบบฝากถอนที่ให้บริการอย่างรวดเร็วไม่กี่วินาที
-                    เพื่อให้ท่านไม่ต้องเสียเวลาในการรอทำรายการและให้ท่านได้สนุกกันอย่างต่อเนื่องไม่จำกัด หมดทุกข้อกังวลเรื่องการโกงเงิน
-                    เพราะเราถือได้ว่าเป็น #1 ของโลกพนันออนไลน์</p>
-            </span>
-            <br>
-            <span>
-                <h4>ความโดดเด่นของ casino online บนเว็บตรงไม่ผ่านเอเย่นต์</h4>
-                <p>ผู้ให้บริการ casino online ที่มีความแปลกใหม่กว่าใคร และมีการพัฒนาระบบการเล่นให้มีความเสถียรอยู่ตลอดเวลา
-                    ลื่นไหลไม่มีสะดุดตลอดการใช้งาน นอกจากนี้ยังทำการอัปเดตเกมใหม่ๆ ที่มีความน่าสนใจ ซึ่งมีภาพกราฟิกที่สวยงามตระการตา
-                    ระบบเสียงที่สมจริงเข้าถึงอารมณ์ได้เป็นอย่างดี และมีอัตราการจ่ายเงินรางวัลที่สูงมาก
-                    ให้ท่านได้เข้ามาสร้างรายได้ให้กับตัวเองไม่ว่าจะอยู่ที่ไหนก็ตาม เพียงแค่มีอุปกรณ์ที่สามารถเชื่อมต่อกับระบบอินเตอร์เน็ตได้เท่านั้น
-                    อีกทั้งนังมาพร้อมกับสูตรบาคาร่า สูตรสล็อต
-                    และเทคนิคการเล่นต่างๆ ที่เห็นผลลัพธ์ได้จริง เพิ่มโอกาสการสร้างรายได้บนเว็บตรงที่ดีที่สุด</p>
+                ถ้าหากว่าท่านกำลังสนใจ คาสิโนออนไลน์ครบวงจร แจกเครดิตฟรี มาสมัครสมาชิกที่เว็บนี้
+                มีเกมคาสิโนยอดนิยมมาให้ทุกท่านได้เลือกเล่นอย่างมากมาย ไม่ว่าจะเป็นทั้ง บาคาร่า สล็อต แทงบอล เกมยิงปลา
+                เสือมังกร รูเล็ต ไฮโล ป๊อกเด้ง และยังมีเกมเดิมพันอื่นๆอีกมากมายให้ทุกท่านได้เลือกเล่นอีกด้วย
+                หรือว่าท่านไหนที่ชื่นชอบการแทงหวย เว็บของเราก็มีให้ท่านได้เลือกแทง ไม่ว่าจะเป็น หวยไทย หวยลาว หวยยี่กี หรือ
+                หวยฮานอย ท่านสามารถเลือกเล่นได้หมด ครบวงจร เว็บของเราได้จัดหามาไว้ให้ทุกท่านหมดแล้ว
             </span>
         </div>
     </div>
-</div>
-
-<br>
-<br>
-<div class='row box-7 position-relative'>
-    <img class="box-logo" src=<?php echo $img_logo ?> alt="">
-    <div class="d-flex justify-content-center align-items-center">
-        <div class="text-center">
-            <span>
-                <h4>บาคาร่า ออนไลน์ เกมคาสิโนออนไลน์ยอดฮิต</h4>
-                <p>บาคาร่า ออนไลน์เป็นเกมที่มาแรงที่สุด และถูกบรรจุเป็นหนึ่งในตัวเลือกยอดฮิตของเรา
-                    เพื่อให้ท่านได้นำไปใช้ในการสร้างรายได้ ซึ่งเราคือผู้ให้บริการที่เป็นเว็บตรงไม่ผ่านเอเย่นต์ ที่มีความน่าเชื่อถือสูงกว่า
-                    ปลอดภัยยิ่งกว่าเว็บเอเย่นต์ทั่วไป และที่สำคัญมีความมั่นคงของการเงินสูง มีเงินสำรองเพียงพอต่อความต้องการของลูกค้า
-                    ไม่มีข่าวหรือประวัติการโกงเกิดขึ้นที่จะส่งผลทำให้ภาพลักษณ์ของทางเว็บไซต์เสียหายอย่างแน่นอน
-                    จึงผลส่งผลให้มีสมาชิกเดิมพันกับเรามากมายนับไม่ถ้วน</p>
-            </span>
-            <br>
-            <span>
-                <h4>บาคาร่า ออนไลน์ บนผู้ให้บริการระดับพรีเมี่ยม</h4>
-                <p>ในส่วนของเรื่องการบริการเมื่อท่านเล่น บาคาร่า ออนไลน์ ได้รับประสบการณ์ที่ดีที่สุด เราพร้อมบริการลูกค้าทุกท่านตามมาตรฐานระดับสากล
-                    โดยเราพัฒนาระบบฝากถอนที่ดีที่สุดในไทย และมีความเสถียรในการใช้งาน สมูทลื่นไหล ไม่ต้องรอนาน
-                    เพื่อประสบการณ์ที่ดีของลูกค้า อีกทั้งยังมีการมีการดูแลบัญชี และฐานข้อมูลของสมาชิกหรือลูกค้าที่เข้าใช้บริการทุกท่านจะถูกเก็บเป็นความลับ
-                    มีช่องทางการติดต่อที่หลากหลาย และสามารถเข้าใช้งานได้อย่างง่ายดายสะดวกสบายไม่ติดขัด
-                    เพื่อส่งผลทำให้การร่วมสนุกของท่านนั้น เต็มไปด้วยประสิทธิภาพสูงสุด</p>
-            </span>
+    <div class="row mt-5">
+        <div class="col-md-8" style="float:none;margin:auto;">
+            <h2><strong>พร้อมรับทุกโปรโมชั่นเด็ด ๆ มากมาย</strong></h2><br>
+            <span><?php echo $name_web; ?> คาสิโนออนไลน์ ในเว็บของเรานั้นมั่นใจได้ว่าจะต้องถูกใจสมาชิกทุกท่านอย่างแน่นอน
+                เพราะว่าเว็บของเราได้นำเกมเดิมพันยอดนิยมอย่างเช่น สล็อต บาคาร่า หรือ เกมยิงปลา และรวมถึงเกมเดิมพันสายกีฬาก็คือ
+                แทงบอล และยังมีเกมเดิมพันกีฬาอื่นๆอีกด้วย เว็บของเราสามารถเดิมพันได้ตลอด 24 ชั่วโมง
+                เชื่อได้เลยว่าได้เดิมพันกับเว็บของเราราคาดีกว่าที่อื่นแน่นอน บอกได้คำเดียวว่าสมัครเว็บนี้คุ้มแน่นอน
+                เพราะเว็บของเราเป็น คาสิโนออนไลน์ครบวงจร แจกเครดิตฟรี
+                บอกได้เลยว่าถูกใจสมาชิกทุกท่านอย่างแน่นอน ทางเข้า</span>
+        </div>
+        <div class="col-md-4 text-center" style="float:none;margin:auto;">
+            <img src=<?php echo $img_pagg1_9; ?> alt="" class="d-block w-100">
         </div>
     </div>
 </div>
-
-<br>
-<div class="row">
-    <div class="col">
-        <h3 class="text-center">คำถามที่พบบ่อย</h3>
-        <p class="text-center">ส่วนที่จะช่วยในการตัดสินใจให้เราบริการเกมคาสิโน แก่ท่านนักเดิมพัน</p>
-        <div class="box-qe">
-            <div class="d-flex bd-highlight">
-                <div class="p-2 flex-grow-1 bd-highlight"><?php echo $name_title ?>casino.me คืออะไร?</div>
-                <div class="p-2 bd-highlight">+</div>
-            </div>
+<hr class="x-hr mt-3">
+<div class="container-md mt-5">
+    <div class="row box-border-page1 p-4">
+        <div class="col-md-7" style="float:none;margin:auto;">
+            <h2><strong class="base-color"><?php echo $name_web; ?></strong></h2><br>
+            <span>สมัครคาสิโนปอยเปตออโต้ เกมส์สล็อตออนไลน์ เติมทรู บาคาร่า เติมผ่านวอเลท UFASLOT356
+                เราคือผู้ให้บริการเว็บ แทงบอลออนไลน์ และเดิมพัน คาสิโนสด สล็อตออนไลน์ ป๊อกเด้ง
+                ในรูปแบบครบวงจรตามหลักต่างประเทศ วิธีการเติมเงิน ผ่านทรูวอลเล็ต ออโต้ Joker UFASLOT356
+                918KISS PUSSY888 PGSLOT สล็อตออนไลน์ บริการผ่าน True money เล่นไม่มีขั้นต่ำ เกมสล็อต ผ่านมือถือ
+                เราเปิดให้บริการมาอย่างยาวนาน 10ปี มีให้เลือกเล่นมากมาย อาทิเช่น SAGAMING SEXYBACCARAT
+                บาคาร่า แบล็คแจ็ค รูเล็ต เสือมังกร ไฮโล ไก่ชน ยิงปลา ไพ่ป๊อกเด้ง และ มวย
+                ในรูปแบบที่ปลอดภัยและมั่นคงข้อมูลของลูกค้าทุกท่านถูกเก็บเป็นความลับเล่นง่ายไม่ยากทุกแพทฟอร์มรองรับมือถือทุกชนิด
+                IOS Android ได้มาตรฐานระดับสากลและมีความน่าเชื่อถือสูง
+                รับประสบการณ์การพนันบนโลกออนไลน์แบบสมจริง</span>
         </div>
-        <br>
-        <div class="box-qe">
-            <div class="d-flex bd-highlight">
-                <div class="p-2 flex-grow-1 bd-highlight"><?php echo $name_title ?> Gaming ได้รับอนุญาต และได้รับการรับรองหรือไม่ ?</div>
-                <div class="p-2 bd-highlight">+</div>
-            </div>
-        </div>
-        <br>
-        <div class="box-qe">
-            <div class="d-flex bd-highlight">
-                <div class="p-2 flex-grow-1 bd-highlight">รางวัลการันตี คาสิโนออนไลน์ อันดับ 1 จริงหรือ ?</div>
-                <div class="p-2 bd-highlight">+</div>
-            </div>
-        </div>
-        <br>
-        <div class="box-qe">
-            <div class="d-flex bd-highlight">
-                <div class="p-2 flex-grow-1 bd-highlight"><?php echo $name_title ?> Casino มีโปรโมชั่นที่เหนือกว่าเว็บใดๆบ้าง ?</div>
-                <div class="p-2 bd-highlight">+</div>
-            </div>
-        </div>
-        <br>
-        <div class="box-qe">
-            <div class="d-flex bd-highlight">
-                <div class="p-2 flex-grow-1 bd-highlight">สิทธิพิเศษเฉพาะสมาชิกมีอะไรบ้าง ?</div>
-                <div class="p-2 bd-highlight">+</div>
-            </div>
-        </div>
-        <br>
-    </div>
-</div>
-</div>
-</div>
-<br>
-<div class="box-img-footer position-relative">
-    <img class="d-block w-100" src=<?php echo $img_footer1 ?> alt="">
-    <div class="box-footer-1">
-        <div class="box-footer-1-img1">
-            <img class="d-block w-100" src=<?php echo $img_footer1_2 ?> alt="">
-        </div>
-        <div class="box-footer-1-img2">
-            <img class="d-block w-100" src=<?php echo $img_footer1_3 ?> alt="">
+        <div class="col-md-5 text-center">
+            <img src=<?php echo $img_pagg1_10; ?> alt="" class="d-block w-100 ms-4">
         </div>
     </div>
 </div>
-<br>
+<div class="container-md">
+    <div class="row mt-5">
+        <div class="col-md-12 box-comment p-5 mt-2 position-relative">
+            <div class="review">ความเห็นของลูกค้า</div>
+            <div>
+                <div class="bg-dark base-color rounded-pill p-1 px-3 d-flex mt-2">
+                    ความพึ่งพอใจ
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                </div>
+                <strong class="ms-3">ถอนเร็วมาก</strong><br>
+                <span class="ms-3">2022-05-18 14:14:58 : <span class="base-color">id234</span> </span>
+            </div>
+            <div>
+                <div class="bg-dark base-color rounded-pill p-1 px-3 d-flex mt-2">
+                    เยี่ยมครับ
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                </div>
+                <strong class="ms-3">ถอนเร็วมาก</strong><br>
+                <span class="ms-3">2022-05-18 14:14:58 : <span class="base-color">id234</span> </span>
+            </div>
+            <div>
+                <div class="bg-dark base-color rounded-pill p-1 px-3 d-flex mt-2">
+                    ความพึ่งพอใจ
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                    &nbsp;<img width="15px" src=<?php echo $img_star; ?>>
+                </div>
+                <strong class="ms-3">ถอนเร็วมาก</strong><br>
+                <span class="ms-3">2022-05-18 14:14:58 : <span class="base-color">id234</span> </span>
+            </div>
+            <div class="text-center mt-1"> <a href="?page=1" class="btn-sign-up3 p-1 px-3 ">รีวิวทั้งหมด</a></div>
+        </div>
 
-<div class='container-lg pd-xx'>
-    <div class="body-pad">
-        <div class="row">
-            <div class="col">
-                <h3 class="text-center">ข้อความรีวิวจากผู้ใช้จริงของ <?php echo $name_title ?> Casino</h3>
-            </div>
-            <br>
-            <div class="box-qe mt-3">
-                <div class="d-flex bd-highlight mb-2">
-                    <div class="p-2 bd-highlight">
-                        <div class="user-pic">
-                            <img class="d-block w-100" src=<?php echo $img_avatar1 ?> alt="">
-                        </div>
-                    </div>
-                    <div class="p-2 flex-grow-1 bd-highlight">
-                        <div>สมาชิกหมายเลข : 091-051-xxxx</div>
-                        <div>IP : 171.6.129.221 07-08-2022 02:50 น.</div>
-                    </div>
-                    <div class="p-2 bd-highlight">************************</div>
-                </div>
-                <p>มีเกมให้เล่นเยอะ เว็บใช้งานง่าย โปรโมชั่นดี แอดมินตอบเร็ว ฝากถอนไว ภายใน 5 วินาที
-                    เว็บใช้งานง่าย มีเกมให้เล่นเยอะ แอดมินตอบเร็ว โปรโมชั่นดี ฝากถอนไว ภายใน 5 วินาที</p>
-            </div>
-            <div class="box-qe mt-3">
-                <div class="d-flex bd-highlight mb-2">
-                    <div class="p-2 bd-highlight">
-                        <div class="user-pic">
-                            <img class="d-block w-100" src=<?php echo $img_avatar2 ?> alt="">
-                        </div>
-                    </div>
-                    <div class="p-2 flex-grow-1 bd-highlight">
-                        <div>สมาชิกหมายเลข : 091-051-xxxx</div>
-                        <div>IP : 171.6.129.221 07-08-2022 02:50 น.</div>
-                    </div>
-                    <div class="p-2 bd-highlight">************************</div>
-                </div>
-                <p>มีเกมให้เล่นเยอะ เว็บใช้งานง่าย โปรโมชั่นดี แอดมินตอบเร็ว ฝากถอนไว ภายใน 5 วินาที
-                    เว็บใช้งานง่าย มีเกมให้เล่นเยอะ แอดมินตอบเร็ว โปรโมชั่นดี ฝากถอนไว ภายใน 5 วินาที</p>
-            </div>
-            <div class="box-qe mt-3">
-                <div class="d-flex bd-highlight mb-2">
-                    <div class="p-2 bd-highlight">
-                        <div class="user-pic">
-                            <img class="d-block w-100" src=<?php echo $img_avatar3 ?> alt="">
-                        </div>
-                    </div>
-                    <div class="p-2 flex-grow-1 bd-highlight">
-                        <div>สมาชิกหมายเลข : 091-051-xxxx</div>
-                        <div>IP : 171.6.129.221 07-08-2022 02:50 น.</div>
-                    </div>
-                    <div class="p-2 bd-highlight">************************</div>
-                </div>
-                <p>มีเกมให้เล่นเยอะ เว็บใช้งานง่าย โปรโมชั่นดี แอดมินตอบเร็ว ฝากถอนไว ภายใน 5 วินาที
-                    เว็บใช้งานง่าย มีเกมให้เล่นเยอะ แอดมินตอบเร็ว โปรโมชั่นดี ฝากถอนไว ภายใน 5 วินาที</p>
-            </div>
-            <div class="box-qe mt-3">
-                <div class="d-flex bd-highlight mb-2">
-                    <div class="p-2 bd-highlight">
-                        <div class="user-pic">
-                            <img class="d-block w-100" src=<?php echo $img_avatar4 ?> alt="">
-                        </div>
-                    </div>
-                    <div class="p-2 flex-grow-1 bd-highlight">
-                        <div>สมาชิกหมายเลข : 091-051-xxxx</div>
-                        <div>IP : 171.6.129.221 07-08-2022 02:50 น.</div>
-                    </div>
-                    <div class="p-2 bd-highlight">************************</div>
-                </div>
-                <p>มีเกมให้เล่นเยอะ เว็บใช้งานง่าย โปรโมชั่นดี แอดมินตอบเร็ว ฝากถอนไว ภายใน 5 วินาที
-                    เว็บใช้งานง่าย มีเกมให้เล่นเยอะ แอดมินตอบเร็ว โปรโมชั่นดี ฝากถอนไว ภายใน 5 วินาที</p>
-            </div>
-            <div class="box-qe mt-3">
-                <div class="d-flex bd-highlight mb-2">
-                    <div class="p-2 bd-highlight">
-                        <div class="user-pic">
-                            <img class="d-block w-100" src=<?php echo $img_avatar5 ?> alt="">
-                        </div>
-                    </div>
-                    <div class="p-2 flex-grow-1 bd-highlight">
-                        <div>สมาชิกหมายเลข : 091-051-xxxx</div>
-                        <div>IP : 171.6.129.221 07-08-2022 02:50 น.</div>
-                    </div>
-                    <div class="p-2 bd-highlight">************************</div>
-                </div>
-                <p>มีเกมให้เล่นเยอะ เว็บใช้งานง่าย โปรโมชั่นดี แอดมินตอบเร็ว ฝากถอนไว ภายใน 5 วินาที
-                    เว็บใช้งานง่าย มีเกมให้เล่นเยอะ แอดมินตอบเร็ว โปรโมชั่นดี ฝากถอนไว ภายใน 5 วินาที</p>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="d-grid gap-2 col-4 mx-auto">
-                <button type="button" class="btn btn-warning ">ดูรีวิวทั้งหมด</button>
-            </div>
-        </div>
     </div>
 </div>

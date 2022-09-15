@@ -6,18 +6,26 @@
             </div>
         </div>
         <ul>
-            <li class="slide-li-menu">
-                <a href=<?php echo $slide_link1;?>>หน้าหลัก</a>
-            </li>
-            <li class="slide-li-menu">
-                <a href=<?php echo $slide_link2;?>>บทความ</a>
-            </li>
-            <li class="slide-li-menu">
-                <a href=<?php echo $slide_link3;?>>โปรโมชั่น</a>
-            </li>
-            <li class="slide-li-menu">
-                <a href=<?php echo $slide_link4;?>>รีวิว</a>
-            </li>
+            <a href="?page=1">
+                <li class="slide-li-menu">
+                    หน้าหลัก
+                </li>
+            </a>
+            <a href="?page=1" >
+                <li class="slide-li-menu">
+                    บทความ
+                </li>
+            </a>
+            <a href="?page=2">
+                <li class="slide-li-menu">
+                    โปรโมชั่น
+                </li>
+            </a>
+            <a href="?page=1" >
+                <li class="slide-li-menu">
+                    รีวิว
+                </li>
+            </a>
         </ul>
 
     </div>
