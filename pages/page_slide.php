@@ -11,7 +11,7 @@
                     หน้าหลัก
                 </li>
             </a>
-            <a href="?page=1" >
+            <a href="<?php echo $link_blog_all?>" target="_blank">
                 <li class="slide-li-menu">
                     บทความ
                 </li>
@@ -21,7 +21,7 @@
                     โปรโมชั่น
                 </li>
             </a>
-            <a href="?page=1" >
+            <a href="<?php echo $link_review?>" target="_blank">
                 <li class="slide-li-menu">
                     รีวิว
                 </li>

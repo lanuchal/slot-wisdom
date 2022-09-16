@@ -34,10 +34,10 @@ $img_pagg1_9 = "./assets/imgs/fot.png";
 
 $img_pagg1_10 = "./assets/imgs/fot2.png";
 
-$owl_img1 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5646.jpg";
-$owl_img2 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5647.jpg";
-$owl_img3 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5648.jpg";
-$owl_img4 = "https://www.overgameclub.co/wp-content/uploads/2022/07/bet5649.jpg";
+$owl_img1 = "./assets/imgs/pr01.jpg";
+$owl_img2 = "./assets/imgs/pr02.jpg";
+$owl_img3 = "./assets/imgs/pr03.jpg";
+$owl_img4 = "./assets/imgs/pr04.jpg";
 
 $img_star = "https://www.overgameclub.co/wp-content/themes/betflixmgm/images/icon/star.svg?v=2";
 

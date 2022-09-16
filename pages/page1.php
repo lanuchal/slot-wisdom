@@ -244,7 +244,7 @@
                 <strong class="ms-3">ถอนเร็วมาก</strong><br>
                 <span class="ms-3">2022-05-18 14:14:58 : <span class="base-color">id234</span> </span>
             </div>
-            <div class="text-center mt-1"> <a href="?page=1" class="btn-sign-up3 p-1 px-3 ">รีวิวทั้งหมด</a></div>
+            <div class="text-center mt-1"> <a href=<?php echo $link_review;?> target="_blank" class="btn-sign-up3 p-1 px-3 ">รีวิวทั้งหมด</a></div>
         </div>
 
     </div>

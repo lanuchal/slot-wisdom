@@ -13,3 +13,5 @@ $link_menu_phone1 = "?page=1";
 $link_menu_phone2 = "?page=1";
 $link_menu_phone3 = "?page=2";
 $link_menu_phone4 = "?page=1";
+
+$link_review = "#link_review";
