@@ -46,9 +46,9 @@ $img_star = "https://www.overgameclub.co/wp-content/themes/betflixmgm/images/ico
 
 $img_promotion = "./assets/imgs/promotion.png";
 $img_promotion_1 = "./assets/imgs/pr01.jpg";
-$img_promotion_2 = "./assets/imgs/pr02.jpg";
-$img_promotion_3 = "./assets/imgs/pr03.jpg";
-$img_promotion_4 = "./assets/imgs/pr04.jpg";
+$img_promotion_2 = "./assets/imgs/pr04.jpg";
+$img_promotion_3 = "./assets/imgs/pr02.jpg";
+$img_promotion_4 = "./assets/imgs/pr03.jpg";
 
 $menu_logo_1 = "./assets/imgs/menu1.png";
 $menu_logo_2 = "./assets/imgs/menu2.png";

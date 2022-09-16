@@ -74,14 +74,23 @@
 
 <div class="container-md">
     <div class="row">
-    <div class="col-md-12 text-center mb-5">
-            <a href="<?php echo $link_blog_all; ?>" target="_bank" class="btn mt-4 btn-md px-5 mb-3 btn-sign-up2  text-light">บทความทั้งหมด</a>
-            <div class="row box-border-page2 pt-2 mt-5 position-relative">
+        <div class="col-md-12 text-center mb-5">
+            <a href="<?php echo $link_blog_all; ?>" target="_bank" class="btn mt-4 btn-md px-5 mb-5 btn-sign-up2  text-light">บทความทั้งหมด</a>
+            <div class="d-flex align-items-end box-border-page2  position-relative justify-content-center mt-5">
+
+                <div class="box-border-owl p-0 m-0">
+                    <img src="<?php echo $owl_box; ?>" alt="" class="jo">
+                </div>
+
                 <div class="promotion">
                     โปรโมชั่น
                 </div>
-                <div class="col-md-12 mt-3">
-                    <div class="owl-carousel mb-0 owl-box">
+                <!-- <div class="promotion2">
+                    <img src="<?php echo $img_promotion; ?>" class="d-block w-100" alt="">
+                </div> -->
+
+                <div class="owllll">
+                    <div class="owl-carousel ">
                         <div class="owl-img mb-0">
                             <a href="<?php echo $link_line; ?>" target="_bank">
                                 <img src=<?php echo $owl_img1 ?> alt=""></a>
@@ -102,6 +111,42 @@
                 </div>
             </div>
         </div>
+        
+        <!-- <div class="col-md-12 text-center mb-5 mt-5">
+            <a href="<?php echo $link_blog_all; ?>" target="_bank" class="btn mt-4 btn-md px-5 mb-5 btn-sign-up2  text-light">บทความทั้งหมด</a>
+            <div class="d-flex align-items-end box-border-page5  position-relative justify-content-center">
+
+                <div class="box-border-owl p-0 m-0">
+                    <img src="<?php echo $owl_box; ?>" alt="" class="jo">
+                </div>
+
+                <div class="promotion">
+                    โปรโมชั่น
+                </div>
+
+                <div class="owllll">
+                    <div class="owl-carousel ">
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img1 ?> alt=""></a>
+                        </div>
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img2 ?> alt=""></a>
+                        </div>
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img3 ?> alt=""></a>
+                        </div>
+                        <div class="owl-img mb-0">
+                            <a href="<?php echo $link_line; ?>" target="_bank">
+                                <img src=<?php echo $owl_img4 ?> alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
         <br>
         <div class="cool-md-12 text-center">
             <img src=<?php echo $img_star3; ?> alt="" class="d-block mx-auto" width="250px">
