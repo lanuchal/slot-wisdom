@@ -63,11 +63,12 @@ a:hover {
 }
 .title-left-box {
   background: linear-gradient(175deg, #6b0b68 30%, #021818);
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .title-left-box div {
-  width: 5rem;
+  width: 90%;
   margin: auto;
+  padding: 1rem 0;
 }
 ul {
   list-style-type: none;
