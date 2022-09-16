@@ -385,7 +385,28 @@ hr.x-hr {
     box-shadow: -5px -5px 10px #000;
     padding: 0.5rem;
     transform: translateX(-50%);
-    top: -3rem;
+    top: -5%;
+    left: 50.5%;
+    /* transform: translateY(-50%); */
+    font-size: 0.7rem;
+  }
+  .promotion2 {
+    width: 8rem;
+    top: -2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+ 
+  .promotion {
+    width: 7rem;
+    position: absolute;
+    background: linear-gradient(90deg, #380635 40%, #031616);
+    border-radius: 1rem;
+    border: 1px solid #a58556;
+    box-shadow: -5px -5px 10px #000;
+    padding: 0.5rem;
+    transform: translateX(-50%);
+    top: -1rem;
     left: 50.5%;
     /* transform: translateY(-50%); */
     font-size: 0.7rem;
