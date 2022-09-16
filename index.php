@@ -28,7 +28,7 @@ if ($p == 1) {
     <!-- Bootstrap CSS -->
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
-    <link rel='icon' type='image/x-icon' href='./assets/imgs/logo.png'>
+    <link rel='icon' type='image/x-icon' href='./assets/imgs/contact.png'>
     <!-- <link href = '/includes/styles.css' rel = 'stylesheet'> -->
     <link rel='stylesheet' href='./includes/styles.css' crossorigin='anonymous'>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -53,7 +53,7 @@ if ($p == 1) {
         </div>
 
         <div class="img-fix2 text-end" id="del">
-            <div onclick="onclickdel()" style="margin: 0 0.2rem -1rem 0 ;"><i class="bi bi-x-circle-fill text-danger " ></i></div>
+            <div onclick="onclickdel()" style="margin: 0 0.2rem -1rem 0 ;"><i class="bi bi-x-circle-fill " ></i></div>
             <a href=<?php echo $link_line ?> target="_blank">
                 <img class="star2 cur-pointer" src=<?php echo $img_star2 ?> alt=""></a>
         </div>

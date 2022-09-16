@@ -104,9 +104,9 @@
         </div>
         <br>
         <div class="cool-md-12 text-center">
-            <img src=<?php echo $img_logo; ?> alt="" class="d-block mx-auto" width="300px">
+            <img src=<?php echo $img_star3; ?> alt="" class="d-block mx-auto" width="250px">
         </div>
-        <h2><strong class="base-color"><?php echo $name_web; ?> คาสิโนออนไลน์ แจกเครดิตฟรี เกมคาสิโน</strong></h2>
+        <h2><strong class="base-color mt-2"><?php echo $name_web; ?> คาสิโนออนไลน์ แจกเครดิตฟรี เกมคาสิโน</strong></h2>
         <br>
         <span> <strong>เว็บคาสิโนออนไลน์ที่ดีที่สุด</strong> ในตอนนี้ต้องเว็บนี้เลย <strong><?php echo $name_web; ?></strong> เพราะเราคือ
             คาสิโนออนไลน์แจกเครดิตฟรี ที่เรามั่นใจว่าท่านที่เข้ามาเล่นต้องประทับใจอย่างแน่นอน

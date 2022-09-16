@@ -5,6 +5,7 @@ body {
   background-size: cover;
   overflow-x: hidden;
   color: #fff;
+  font-family: "Kanit", sans-serif;
 }
 
 a {
@@ -328,14 +329,11 @@ hr.x-hr {
   .imgooo {
     position: absolute;
     transform: translateX(-50%);
-    top: -3rem;
+    bottom: 0.1rem;
     left: 50%;
-    width: 7rem;
-    background-color: rgba(0, 0, 0, 0.736);
-    border: 3px solid #a58556;
-    box-shadow: -5px -5px 10px #000;
+    width: 8rem;
+    /* box-shadow: -5px -5px 10px #000; */
     border-radius: 4rem;
-    padding: 2rem 0rem;
   }
   .img-bar {
     width: 3rem;

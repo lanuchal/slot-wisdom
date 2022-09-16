@@ -13,8 +13,10 @@ $img_logo = "./assets/imgs/logo.png";
 
 $img_sign_up = "./assets/imgs/signup.png";
 
-$img_star2 = "./assets/imgs/contact.png";
-$img_star3 = "./assets/imgs/(44)150x231.png";
+// lineicon.png
+$img_star2 = "./assets/imgs/lineicon.png";
+
+$img_star3 = "./assets/imgs/contact.png";
 
 $img_pagg1_1 = "./assets/imgs/img1.png";
 // 4 title
