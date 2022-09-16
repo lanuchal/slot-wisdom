@@ -153,15 +153,19 @@ ul {
   position: fixed;
   z-index: 3;
   width: 7rem;
+  padding: 0;
   height: 15.5rem;
-  /* background-color: rgba(212, 155, 86, 0.452); */
   transform: translateX(-50%);
   right: 0.5rem;
   top: 50%;
   transform: translateY(-50%);
 }
 .star2 {
+  padding: 0;
   width: 100%;
+  object-fit: cover;
+  height: 9rem;
+  object-position: 100% 90%;
 }
 .promotion {
   width: 15rem;

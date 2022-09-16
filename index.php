@@ -53,9 +53,9 @@ if ($p == 1) {
         </div>
 
         <div class="img-fix2 text-end" id="del">
-            <div onclick="onclickdel()" style="margin: 0 0.2rem -1rem 0 ;"><i class="bi bi-x-circle-fill " ></i></div>
+            <div onclick="onclickdel()" style="margin: 0 0.2rem 0rem 0 ; z-index:10;"><i class="bi bi-x-circle-fill " ></i></div>
             <a href=<?php echo $link_line ?> target="_blank">
-                <img class="star2 cur-pointer" src=<?php echo $img_star2 ?> alt=""></a>
+                <img object-fit: cover;  class="star2 cur-pointer" src=<?php echo $img_star2 ?> alt=""></a>
         </div>
         <div class="title-box">
             <?php include 'includes/header.php'; ?>
