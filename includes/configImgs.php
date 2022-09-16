@@ -34,6 +34,9 @@ $img_pagg1_9 = "./assets/imgs/fot.png";
 
 $img_pagg1_10 = "./assets/imgs/fot2.png";
 
+
+$owl_box = "./assets/imgs/owlbox.png";
+
 $owl_img1 = "./assets/imgs/pr01.jpg";
 $owl_img2 = "./assets/imgs/pr02.jpg";
 $owl_img3 = "./assets/imgs/pr03.jpg";
@@ -41,6 +44,7 @@ $owl_img4 = "./assets/imgs/pr04.jpg";
 
 $img_star = "https://www.overgameclub.co/wp-content/themes/betflixmgm/images/icon/star.svg?v=2";
 
+$img_promotion = "./assets/imgs/promotion.png";
 $img_promotion_1 = "./assets/imgs/pr01.jpg";
 $img_promotion_2 = "./assets/imgs/pr02.jpg";
 $img_promotion_3 = "./assets/imgs/pr03.jpg";

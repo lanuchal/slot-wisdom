@@ -6,7 +6,7 @@
             <h3><strong class="base-color"><?php echo $name_web; ?></strong> อันดับหนึ่ง No.1</h3>
             <span><?php echo $name_web; ?> ฝาก-ถอนออโต้ รองรับระบบ AUTO
                 สมัครง่ายไม่ต้องจำยูสเซอร์เปิดบริการตลอด24ชม</span>
-               <br>
+            <br>
             <a href="<?php echo $link_sign_up; ?>" target="_bank" class="mt-2 "><br>
                 <img src=<?php echo $img_sign_up; ?> height="80px"></a>
         </div>
@@ -75,13 +75,19 @@
 <div class="container-md">
     <div class="row">
         <div class="col-md-12 text-center mb-5">
-            <a href="<?php echo $link_blog_all; ?>" target="_bank" class="btn mt-4 btn-md px-5 mb-3 btn-sign-up2  text-light">บทความทั้งหมด</a>
-            <div class="row box-border-page2 pt-2 mt-5 position-relative">
-                <div class="promotion">
-                    โปรโมชั่น
+            <a href="<?php echo $link_blog_all; ?>" target="_bank" class="btn mt-4 btn-md px-5 mb-5 btn-sign-up2  text-light">บทความทั้งหมด</a>
+            <div class="d-flex align-items-end box-border-page2  position-relative justify-content-center">
+
+                <div class="box-border-owl p-0 m-0">
+                    <img src="<?php echo $owl_box; ?>" alt="" class="jo">
                 </div>
-                <div class="col-md-12 mt-3">
-                    <div class="owl-carousel mb-0 owl-box">
+
+                <div class="promotion">
+                    <img src="<?php echo $img_promotion; ?>" alt="" class="d-block w-100">
+                </div>
+
+                <div class="owllll">
+                    <div class="owl-carousel ">
                         <div class="owl-img mb-0">
                             <a href="<?php echo $link_line; ?>" target="_bank">
                                 <img src=<?php echo $owl_img1 ?> alt=""></a>
@@ -244,7 +250,7 @@
                 <strong class="ms-3">ถอนเร็วมาก</strong><br>
                 <span class="ms-3">2022-05-18 14:14:58 : <span class="base-color">id234</span> </span>
             </div>
-            <div class="text-center mt-1"> <a href=<?php echo $link_review;?> target="_blank" class="btn-sign-up3 p-1 px-3 ">รีวิวทั้งหมด</a></div>
+            <div class="text-center mt-1"> <a href=<?php echo $link_review; ?> target="_blank" class="btn-sign-up3 p-1 px-3 ">รีวิวทั้งหมด</a></div>
         </div>
 
     </div>

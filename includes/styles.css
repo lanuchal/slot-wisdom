@@ -42,8 +42,13 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.541);
 }
 .owl-box {
-  padding: 3rem;
-  padding-left: 5%;
+  margin-top: 10rem;
+  z-index: 1;
+  /* background-color: #9333ed; */
+  padding: 6.5rem;
+  padding-top: 8rem;
+  /* padding: 3rem; */
+  /* padding-left: 5%; */
 }
 .owl-img {
   width: 97%;
@@ -168,17 +173,10 @@ ul {
   object-position: 100% 90%;
 }
 .promotion {
-  width: 15rem;
   position: absolute;
-  background: linear-gradient(90deg, #380635 40%, #031616);
-  border-radius: 1rem;
-  border: 3px solid #a58556;
-  box-shadow: -5px -5px 10px #000;
-  padding: 1rem;
   transform: translateX(-50%);
-  top: -3rem;
+  top: -2.5rem;
   left: 50%;
-  /* transform: translateY(-50%); */
   font-size: 2rem;
 }
 .btn-sign-up {
@@ -215,6 +213,10 @@ hr.x-hr {
   width: 100%;
   text-align: center;
 }
+.owllll {
+  margin-top: 9%;
+  width: 85%;
+}
 .bg-xx {
   background-image: url("../assets/imgs/bg.jpg");
 }
@@ -227,10 +229,10 @@ hr.x-hr {
   margin: auto;
 }
 .box-border-page2 {
-  background: linear-gradient(90deg, #380635ad 40%, #031616);
+  /* background-image: url("../assets/imgs/owlbox.png"); */
+  /* background-size: auto; */
   border-radius: 40px;
-  border: 3px solid #a58556;
-  box-shadow: -5px -5px 10px #000;
+  z-index: 2;
 }
 .box-border-page3 {
   background: linear-gradient(90deg, #380635ad 40%, #031616);
@@ -296,18 +298,34 @@ hr.x-hr {
 .menubar-tap i {
   font-size: 2rem;
 }
-.img-head{
+.img-head {
   height: 100%;
   margin-left: 1rem;
 }
-.img-fr{
+.img-fr {
   width: 80%;
 }
+.box-border-owl {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.jo {
+  width: 100%;
+  border-radius: 2rem;
+  background-color: #1e0227ea;
+}
 @media screen and (max-width: 787px) {
-  .img-head{
+  .img-head {
     margin-top: 1rem;
     height: 60%;
     margin-left: 0;
+  }
+  .owllll {
+    margin-top: 9%;
+    width: 90%;
   }
   .owl-box {
     margin-top: 2rem;
@@ -341,7 +359,7 @@ hr.x-hr {
   .img-bar {
     width: 3rem;
   }
-  .btn-mini{
+  .btn-mini {
     font-size: 0.7rem;
     padding: 2px;
     margin: 2px;
