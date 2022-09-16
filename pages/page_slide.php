@@ -11,21 +11,26 @@
                     หน้าหลัก
                 </li>
             </a>
-            <a href="<?php echo $link_blog_all?>" target="_blank">
+            <!-- <a href="<?php echo $link_blog_all?>" target="_blank">
                 <li class="slide-li-menu">
                     บทความ
                 </li>
-            </a>
+            </a> -->
             <a href="?page=2">
                 <li class="slide-li-menu">
                     โปรโมชั่น
                 </li>
             </a>
-            <a href="<?php echo $link_review?>" target="_blank">
+            <a href="<?php echo $link_line?>" target="_blank">
+                <li class="slide-li-menu">
+                    ติดต่อเรา
+                </li>
+            </a>
+            <!-- <a href="<?php echo $link_review?>" target="_blank">
                 <li class="slide-li-menu">
                     รีวิว
                 </li>
-            </a>
+            </a> -->
         </ul>
 
     </div>
