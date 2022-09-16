@@ -8,9 +8,9 @@
                 สมัครง่ายไม่ต้องจำยูสเซอร์เปิดบริการตลอด24ชม</span>
                <br>
             <a href="<?php echo $link_sign_up; ?>" target="_bank" class="mt-2 "><br>
-                <img src=<?php echo $img_sign_up; ?> height="60px"></a>
+                <img src=<?php echo $img_sign_up; ?> height="80px"></a>
         </div>
-        <div class="col-md-6 px-5">
+        <div class="col-md-6 p-5">
             <img class="d-block w-100" src=<?php echo $img_pagg1_1; ?>>
         </div>
     </div>

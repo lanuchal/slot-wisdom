@@ -87,8 +87,11 @@ if ($p == 1) {
 
 
 
-    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0<?php echo $name_title ?>7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM' crossorigin='anonymous'></script>
+    <!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0<?php echo $name_title ?>7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM' crossorigin='anonymous'></script> -->
     <script>
+        
+        console.log("assssssssss")
+        console.log("width",window.screen.width);
         $('li').hover(function() {
             $(this).addClass('active');
         }, function() {
@@ -106,6 +109,7 @@ if ($p == 1) {
     </script>
 
     <script>
+
         function onclickdel() {
             var elem = document.getElementById("del");
             elem.parentElement.removeChild(elem);

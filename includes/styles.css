@@ -2,6 +2,7 @@ body {
   background-image: url("../assets/imgs/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
   color: #fff;
@@ -42,10 +43,10 @@ a:hover {
 }
 .owl-box {
   padding: 3rem;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 .owl-img {
-  width: 80%;
+  width: 97%;
 }
 .menu-left {
   position: fixed;
